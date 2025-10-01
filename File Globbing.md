@@ -33,6 +33,14 @@ cd /challenge/files
 /challenge/run /challenge/files/file_[bash]
 ````
 
+## MULTIPLE GLOBBING
+### FLAG: pwn.college{gFYg2ee-hfk-QA4PQatzKIcI2ZO.QXycTO2EDLycTN0czW}
+### APPROACH USED:
+```
+cd /challenge/files
+/challenge/run *p*
+```
+
 ## MIXING GLOBS
 ### FLAG: pwn.college{0-Y2eJW9QnCT3zsxYd27ss4ReH4.dVjM4QDLycTN0czW}
 ### APPORACH USED:
@@ -51,3 +59,26 @@ cd /challege/files
 /challenge/run [^pwn]*
 ````
 In this I had to first get into the `/challenge/files` directory using the `cd` command. After that, I ran the glob `[^pwn]*`. The ^ makes it so that the files do not start with **"p","w","n"** and the * finds the rest of the string 
+
+## EXCLUSION GLOBBING
+### FLAG: pwn.college{M2fE0vF3i1t6u0eZwtOBXzX--b4.QX0QTM3EDLycTN0czW}
+### APPROACH USED:
+```
+cat /challenge/pwncollege​
+```
+
+## MULTIPLE OPTIONS FOR TAB COOMPLETING
+### FLAG: pwn.college{skaDxxxfZGBVE6oArYrTVEknnHl.QX2QTM3EDLycTN0czW}
+### APPROACH USED:
+```
+cat /challenge/files/pwn
+cat /challenge/files/pwncollege-
+cat /challenge/files/pwncollege-flag
+```
+
+## TAB COMPLETION ON COMMANDS
+### FLAG: pwn.college{o7fsYjZaSEyZDEYfdnl53IL8C4E.QX1QTM3EDLycTN0czW}
+### APPROACH USED:
+```
+pwncollege-15743
+```
