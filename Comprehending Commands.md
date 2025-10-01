@@ -33,6 +33,13 @@ grep pwn.college /challenge/data.txt
 ````
 Since all flags start with **pwn.college**; If we look for that in the occurence of that text in the file data.txt present in the challenge directory, we can find the flag.
 
+## COMPARING FILES
+### FLAG: pwn.college{gQ2gL6vUAQz81YVmuDfBUNmWRvT.QXzAzM4EDLycTN0czW}
+### APPROACH USED:
+```
+ diff /challenge/decoys_only.txt /challenge/decoys_and_real.txt
+```
+
 ## LISTING FILES 
 ### FLAG: pwn.college{IPeFwdBNrSXL_vFQ57ZuwEoFX4d.dhjM4QDLycTN0czW}
 ### APPROACH USED 
@@ -61,6 +68,15 @@ rm delete_me
 /challenge/check
 ````
 First i delete the file, then use the command to check in order to recieve the flag
+
+## MOVING FILES
+### FLAG: pwn.college{04JzpJBczn0eeICVElO_ai5QnnR.QX5ETM3EDLycTN0czW}
+### APPROACH USED
+```
+ls
+mv /flag /tmp/hack-the-planet
+/challenge/check
+```
 
 ## HIDDEN FILES 
 ### FLAG: pwn.college{kmDiXO-tub2_sJOoao0Rvi0cgFi.dBTN4QDLycTN0czW}
