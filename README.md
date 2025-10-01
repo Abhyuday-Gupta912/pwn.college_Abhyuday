@@ -9,17 +9,18 @@ This repository contains my progress and documentation for **Cryptonite's Senior
 #### Core Modules (14/14)
 - [x] **Hello Hackers** - [HELLO HACKERS.md](./HELLO%20HACKERS.md)
 - [x] **Pondering Paths** - [PONDERING PATHS.md](./PONDERING%20PATHS.md)
-- [ ] **Comprehending Commands**
-- [ ] **Digesting Documentation**
-- [ ] **File Globbing**
-- [ ] **Practicing Piping**
-- [ ] **Shell Variables**
+- [x] **Comprehending Commands**
+- [x] **Digesting Documentation**
+- [x] **File Globbing**
+- [x] **Practicing Piping**
+- [x] **Shell Variables**
 - [ ] **Data Manipulation**
-- [ ] **Processes and Jobs**
-- [ ] **Untangling Users**
-- [ ] **Perceiving Permissions**
-- [ ] **Chaining Commands**
+- [x] **Processes and Jobs**
+- [x] **Untangling Users**
+- [x] **Perceiving Permissions**
+- [x] **Chaining Commands**
 - [ ] **Terminal Multiplexing**
-- [ ] **Pondering PATH**
+- [x] **Pondering PATH**
 
 **Note:** This repository will be continuously updated as I progress through the modules. Each completed challenge will be documented with detailed explanations and learning insights.
+
