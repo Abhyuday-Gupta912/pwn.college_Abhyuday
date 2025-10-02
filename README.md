@@ -14,13 +14,14 @@ This repository contains my progress and documentation for **Cryptonite's Senior
 - [x] **File Globbing**
 - [x] **Practicing Piping**
 - [x] **Shell Variables**
-- [ ] **Data Manipulation**
+- [X] **Data Manipulation**
 - [x] **Processes and Jobs**
 - [x] **Untangling Users**
 - [x] **Perceiving Permissions**
 - [x] **Chaining Commands**
-- [ ] **Terminal Multiplexing**
+- [X] **Terminal Multiplexing**
 - [x] **Pondering PATH**
 
 **Note:** This repository will be continuously updated as I progress through the modules. Each completed challenge will be documented with detailed explanations and learning insights.
+
 
