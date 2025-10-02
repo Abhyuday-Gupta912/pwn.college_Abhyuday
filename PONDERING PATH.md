@@ -25,6 +25,15 @@ pwn.college{I0pM6F8ryES_vQWuUl0aG-JejcU.dVzNyUDLycTN0czW}
 ````
 In this, we set the `PATH` to `/challenge/more_commands`. This allows the win command to be in the PATH. Therefore, when the challenge is run, the command is found and the flag is revealed.
 
+## FINDING COMMANDS
+### FLAG: pwn.college{8L6Lquh0w2zVxvt-v_D16iYFrNy.QX3MTM3EDLycTN0czW}
+### APPROACH USED:
+```
+which win
+cd /challenge/paths/17650
+cat flag
+```
+
 ## ADDING COMMANDS
 ### FLAG: pwn.college{kC70CEhLXasaElPxwNWrkEHG0ij.dZzNyUDLycTN0czW}
 ### APPROACH USED:
