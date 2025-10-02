@@ -27,6 +27,16 @@ In this, I first listed out all the processes using the `ps aux` command. Then f
 ````
 after running `/challenge/run` once, we can interrupt it by pressing "ctrl+C" in order to force exit and reveal the flag.
 
+## KILLING MISBEHAVING PROCESSES
+### FLAG: pwn.college{Yw_h4vJ0OfNTjF0-FdRaTE5ju7W.QX0MzM4EDLycTN0czW}
+### APPROACH USED:
+```
+ps -ef | grep decoy
+kill 142
+cat /tmp/flag_fifo (in a different terminal)
+/challenge/run
+```
+
 ## SUSPENDING PROCESSES
 ### FLAG: pwn.college{wvlR7eKkWatmLwWZiYBhwkSE_sQ.dVDN4QDLycTN0czW}
 ### APPROACH USED:
