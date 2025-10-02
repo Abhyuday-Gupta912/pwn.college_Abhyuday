@@ -18,8 +18,9 @@ This repository contains my progress and documentation for **Cryptonite's Senior
 - [x] **Processes and Jobs** - [PROCESSES AND JOBS.md](./PROCESSES%20AND%20JOBS.md)
 - [x] **Untangling Users** - [Untangling Users.md](./Untangling%20Users.md)
 - [x] **Perceiving Permissions** - [PERCIEVING PERMISSIONS.md](./PERCIEVING%20PERMISSIONS.md)
-- [x] **Chaining Commands** - [Chaining Commands.md](./Chaining%20Commands.md)
+- [x] **Chaining Commands** - [Chaining Commands.md](./Chaining%20Commands.md)  (Few challenges left in chaining commands)
 - [x] **Terminal Multiplexing** - [TERMINAL MULTIPLEXING.md](./TERMINAL%20MULTIPLEXING.md)
 - [x] **Pondering PATH** - [PONDERING PATH.md](./PONDERING%20PATH.md)
 
 **Note:** This repository documents my complete journey through all 14 core modules of pwn.college's Linux fundamentals program. Each module file contains detailed challenge solutions, approach explanations, and key learnings.
+
